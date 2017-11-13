@@ -1,0 +1,232 @@
+/*!
+ * Start Bootstrap - Landing Page (https://startbootstrap.com/template-overviews/landing-page)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-landing-page/blob/master/LICENSE)
+ */
+
+body, html {
+  width: 100%;
+  height: 100%;
+}
+
+body, h1, h2, h3, h4, h5, h6 {
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+}
+
+.intro-header {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  color: #f8f8f8;
+  background: url(../img/sky_background.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+.profile-pic {
+  width: 25%;
+  height: auto;
+  border-top-left-radius: 50% 50%;
+  border-top-right-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
+
+}
+
+.intro-message {
+  position: relative;
+  padding-top: 8%;
+  padding-bottom: 8%;
+}
+
+.intro-message>h1 {
+  margin: 0;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+  font-size: 5em;
+  padding-bottom: 15px;
+}
+
+.intro-message>h2 {
+  padding-bottom: 15px;
+}
+
+.intro-divider {
+  width: 400px;
+  border-top: 1px solid #f8f8f8;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.intro-message>h3 {
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.personal {
+  /*border-bottom-width: 1px;
+    border-color: rgba(224, 224, 224, 0.75);
+    border-style: solid;
+    border-top-width: 1px;
+    margin-bottom: 6em;*/
+    padding: 4em 0;
+    font-size: 120%;
+}
+
+.resume-button-container {
+  margin-top: 45px;
+}
+
+.personal-container {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.intro-social-buttons i {
+  font-size: 80%;
+}
+
+#code-link {
+  color: slategrey;
+  border-bottom: 1px dotted slategrey
+}
+
+.box {
+  background: #ffffff;
+  padding: 3.5em
+  border: solid 1px rgba(224, 224, 224, 0.75);
+}
+
+.skills-container {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.skills div {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.languages li:not(:last-child) {
+    padding: 0 0 30px 0;
+}
+
+.skills svg {
+    height: 58.28px;
+    height: 58.28px;
+}
+
+.icons {
+  font-size: 60px;
+}
+
+.skills h2 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.skills li {
+  list-style: none;
+}
+
+@media(max-width:767px) {
+  .intro-message {
+    padding-bottom: 15%;
+  }
+  .intro-message>h1 {
+    font-size: 3em;
+  }
+  ul.intro-social-buttons>li {
+    display: block;
+    margin-bottom: 20px;
+    padding: 0;
+  }
+  ul.intro-social-buttons>li:last-child {
+    margin-bottom: 0;
+  }
+  .intro-divider {
+    width: 100%;
+  }
+}
+
+.network-name {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+.content-section-a {
+  padding: 50px 0;
+  background-color: #f8f8f8;
+}
+
+.content-section-b {
+  padding: 50px 0;
+  border-top: 1px solid #e7e7e7;
+  border-bottom: 1px solid #e7e7e7;
+}
+
+.section-heading {
+  margin-bottom: 30px;
+}
+
+.section-heading-spacer {
+  float: left;
+  width: 200px;
+  border-top: 3px solid #e7e7e7;
+}
+
+.banner {
+  padding: 100px 0;
+  color: #f8f8f8;
+  background: url(../img/sky_picture.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+.banner h2 {
+  margin: 0;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+  font-size: 3em;
+}
+
+.banner ul {
+  margin-bottom: 0;
+}
+
+.banner-social-buttons {
+  float: right;
+  margin-top: 0;
+}
+
+@media(max-width:1199px) {
+  ul.banner-social-buttons {
+    float: left;
+    margin-top: 15px;
+  }
+}
+
+@media(max-width:767px) {
+  .banner h2 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+    font-size: 3em;
+  }
+  ul.banner-social-buttons>li {
+    display: block;
+    margin-bottom: 20px;
+    padding: 0;
+  }
+  ul.banner-social-buttons>li:last-child {
+    margin-bottom: 0;
+  }
+}
+
+footer {
+  padding: 50px 0;
+  background-color: #f8f8f8;
+}
+
+p.copyright {
+  margin: 15px 0 0;
+}
